@@ -98,4 +98,28 @@ footer {
     padding: 2rem;
 }
 
+.box {
+    background-color: rgba(219, 225, 222, 1);
+    height: 16rem;
+    margin: 2rem;
+    display: inline-block;
+    width: 16rem;
+    vertical-align: top;
 
+}
+
+.desc {
+    padding: 2px;
+    text-align: center;
+}
+
+.box_title {
+    padding: 0.5rem;
+    text-align: center;
+    color: rgba(231, 101, 40, 1);
+}
+
+
+.clear {
+    clear: both;
+}
