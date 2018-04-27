@@ -133,6 +133,11 @@ footer {
     padding: 4rem .6rem;
 }
 
+.resume {
+    background: linear-gradient(rgba(255,255,255, 0.6),rgba(255,255,255, 0.6)), no-repeat center/cover url("https://farm1.staticflickr.com/977/39933828980_d69045436e_b.jpg");
+}
+
+
 .clear {
     clear: both;
 }
