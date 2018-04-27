@@ -15,12 +15,14 @@ body {
     color: rgba(66, 66, 66, 1);
     /* background-color: rgba(219, 225, 222, 1); */
     margin: 0;
-    background-image: url("https://farm1.staticflickr.com/977/39933828980_d69045436e_b.jpg");
+    background: no-repeat center/cover url("https://farm1.staticflickr.com/977/39933828980_d69045436e_b.jpg");
 }
 
 .menu {
     background-color: rgba(194, 194, 194, 1);
     display: flex;
+    justify-content: center;
+    align-items: stretch baseline;
 }
 
 .logo {
@@ -33,7 +35,7 @@ body {
 
 .nav {
     width: 33%;
-    padding: 30px 20px;
+    padding: 40px 20px 30px 20px;
     font-family: 'Quattrocento', serif;
     color: rgba(66, 66, 66, 1);
     font-size: 1.5rem;
@@ -86,5 +88,11 @@ h1 {
 footer {
     background-color: rgba(194, 194, 194, 1);
     display: flex;
+    justify-content: center;
+    align-items: stretch baseline;
+}
+
+.foot_title {
+    font-size: 1.5rem;
 }
 
