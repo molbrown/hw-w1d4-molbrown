@@ -13,7 +13,7 @@ body {
     /* box-sizing: border-box; */
     font-family: 'Quattrocento Sans', sans-serif;
     color: rgba(66, 66, 66, 1);
-    background-color: rgba(219, 225, 222, 1);
+    /* background-color: rgba(219, 225, 222, 1); */
     margin: 0;
 }
 
@@ -46,6 +46,10 @@ body {
 
 .nav:hover {
     background: linear-gradient(rgba(104, 165, 160, 0.4),rgba(104, 165, 160, 0.4));
+}
+
+main {
+    background-image: url("https://farm1.staticflickr.com/977/39933828980_d69045436e_b.jpg");
 }
   
 .face {
