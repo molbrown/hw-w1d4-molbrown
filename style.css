@@ -1,24 +1,65 @@
-/* font-family: 'Oswald', sans-serif;
-font-family: 'Dosis', sans-serif; */
+/* font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Quattrocento', serif; */
 
 /* RGB 
 $darkgray: rgba(66, 66, 66, 1);
-$medgray: rgba(181, 181, 181, 1);
+$medgray: rgba(194, 194, 194, 1);
 $aqua: rgba(104, 165, 160, 1);
 $orange: rgba(231, 101, 40, 1);
 $light: rgba(219, 225, 222, 1);
 */
 
 body {
-    box-sizing: border-box;
-    font-family: "Oswald","Dosis", sans-serif;
+    /* box-sizing: border-box; */
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgba(66, 66, 66, 1);
+    background-color: rgba(219, 225, 222, 1);
     margin: 0;
 }
 
 .menu {
-    background-color: rgba(181, 181, 181, 1);
+    background-color: rgba(194, 194, 194, 1);
+    display: flex;
 }
 
 .logo {
-    max-width: 20%;
+    display: flex;
+    width: 100px;
+    height: 70px;
+    margin: 20px;
+    float: left;
 }
+
+.nav {
+    width: 33%;
+    padding: 40px 0;
+    font-family: 'Quattrocento', serif;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.foot {
+    padding: 20px 0;
+}
+
+.nav:hover {
+    background: linear-gradient(rgba(104, 165, 160, 0.4),rgba(104, 165, 160, 0.4));
+}
+  
+.face {
+    max-width: 60%;
+    border-radius: 100%;
+}
+
+h1 {
+    font-family: 'Quattrocento', serif;
+}
+
+
+footer {
+    background-color: rgba(194, 194, 194, 1);
+    display: flex;
+}
+
