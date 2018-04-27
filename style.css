@@ -129,12 +129,46 @@ footer {
     color: rgba(231, 101, 40, 1);
 }
 
-.one {
+.spec {
     padding: 4rem .6rem;
 }
 
 .resume {
     background: linear-gradient(rgba(255,255,255, 0.6),rgba(255,255,255, 0.6)), no-repeat center/cover url("https://farm1.staticflickr.com/977/39933828980_d69045436e_b.jpg");
+}
+
+.molly {
+    font-size: 4rem;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin: 0;
+    border-bottom: 3px solid rgba(0, 193, 199, 1);
+}
+
+
+.one {
+    border-bottom: 3px solid rgba(0, 193, 199, 1);
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+.skills {
+    display: inline-block;
+    margin: 0 3rem;
+    vertical-align: top;
+    text-align: left;   
+}
+
+.exp {
+    display: inline-block;
+    text-align: left;
+}
+
+.a {
+    margin: 0 0 1rem 0;
 }
 
 
