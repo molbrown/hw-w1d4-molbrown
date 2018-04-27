@@ -98,6 +98,10 @@ footer {
     padding: 2rem;
 }
 
+.boxes {
+    text-align: center;
+}
+
 .box {
     background-color: rgba(219, 225, 222, 1);
     height: 16rem;
@@ -105,11 +109,11 @@ footer {
     display: inline-block;
     width: 16rem;
     vertical-align: top;
-
+    border-top: 4px solid rgba(231, 101, 40, 1);
 }
 
 .desc {
-    padding: 2px;
+    padding: 6px;
     text-align: center;
 }
 
@@ -119,6 +123,9 @@ footer {
     color: rgba(231, 101, 40, 1);
 }
 
+.one {
+    padding: 4rem .6rem;
+}
 
 .clear {
     clear: both;
