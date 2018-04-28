@@ -9,6 +9,7 @@ $orange: rgba(231, 101, 40, 1);
 $light: rgba(219, 225, 222, 1);
 */
 
+
 body {
     /* box-sizing: border-box; */
     font-family: 'Quattrocento Sans', sans-serif;
@@ -71,6 +72,7 @@ body {
     color: white;
     margin: 0.5rem 0;
     font-size: 2rem;
+    font-weight: normal;
 }
 
 .intro {
@@ -176,4 +178,65 @@ footer {
 
 .clear {
     clear: both;
+}
+
+@media screen and (min-width: 991px) {
+    
+    .float {
+        display: block;
+        float: left;
+        /* display: inline-block; */
+        margin: 2rem;
+    }
+    
+    .face {
+        max-width: 500px;
+        margin: 10% 5%;
+    }
+
+    .right {
+        max-width: 38%;
+        margin: 5% 0;
+        padding: 4% 2%;
+        float: right;
+    }
+
+    .left {
+        max-width: 50%;
+        /* margin: 10% 5%; */
+    }
+
+
+    .about {
+        /* max-width: 200px; */
+        text-align: right;
+    }
+    
+    .one { 
+        text-align: left;
+        /* border-right: 3px solid rgba(0, 193, 199, 1); */
+        border-bottom: none;
+        float: left;
+        width: 25%;
+    }
+
+    .skills {
+        display: block;
+        width: 75%;
+        margin: 0 25%;
+        padding: 0 1rem 0 0;
+    }
+
+    .two {
+        text-align: left;
+    }
+   
+    .exp {
+        display: block;
+        width: 65%;
+        float: left;
+        border-left: 3px solid rgba(0, 193, 199, 1);
+        padding: 0 0 4rem 3rem;
+    }
+
 }
