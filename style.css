@@ -165,6 +165,8 @@ footer {
 .exp {
     display: inline-block;
     text-align: left;
+    width: 460px;
+    padding: 0 0 4rem 0;
 }
 
 .a {
