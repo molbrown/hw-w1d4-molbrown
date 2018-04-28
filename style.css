@@ -11,10 +11,8 @@ $light: rgba(219, 225, 222, 1);
 
 
 body {
-    /* box-sizing: border-box; */
     font-family: 'Quattrocento Sans', sans-serif;
     color: rgba(66, 66, 66, 1);
-    /* background-color: rgba(219, 225, 222, 1); */
     margin: 0;
     background: no-repeat center/cover url("background.jpg");
 }
@@ -185,7 +183,6 @@ footer {
     .float {
         display: block;
         float: left;
-        /* display: inline-block; */
         margin: 2rem;
     }
     
@@ -203,21 +200,22 @@ footer {
 
     .left {
         max-width: 50%;
-        /* margin: 10% 5%; */
     }
 
 
     .about {
-        /* max-width: 200px; */
         text-align: right;
     }
     
     .one { 
         text-align: left;
-        /* border-right: 3px solid rgba(0, 193, 199, 1); */
         border-bottom: none;
         float: left;
         width: 25%;
+    }
+
+    .two {
+        text-align: left;
     }
 
     .skills {
@@ -227,10 +225,6 @@ footer {
         padding: 0 1rem 0 0;
     }
 
-    .two {
-        text-align: left;
-    }
-   
     .exp {
         display: block;
         width: 65%;
