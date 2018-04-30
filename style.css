@@ -1,0 +1,236 @@
+/* font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Quattrocento', serif; */
+
+/* RGB 
+$darkgray: rgba(66, 66, 66, 1);
+$medgray: rgba(194, 194, 194, 1);
+$aqua: rgba(0, 193, 199, 1);
+$orange: rgba(231, 101, 40, 1);
+$light: rgba(219, 225, 222, 1);
+*/
+
+
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgba(66, 66, 66, 1);
+    margin: 0;
+    background: no-repeat center/cover url("background.jpg");
+}
+
+.menu {
+    background-color: rgba(194, 194, 194, 1);
+    display: flex;
+    justify-content: center;
+    align-items: stretch baseline;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    height: 70px;
+    margin: 20px;
+    float: left;
+}
+
+.nav {
+    width: 33%;
+    padding: 40px 20px 30px 20px;
+    font-family: 'Quattrocento', serif;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.foot {
+    padding: 2rem 0;
+}
+
+.nav:hover {
+    background: rgba(0, 193, 199, 1);
+}
+
+.face {
+    display: block;
+    max-width: 60%;
+    border-radius: 100%;
+    margin: 2rem auto;
+}
+
+.about {
+    background-color: rgba(231, 101, 40, 1);
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.name {
+    padding: 1rem;
+    color: white;
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.intro {
+    padding: 0 1rem 1rem 1rem;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Quattrocento', serif;
+}
+
+
+footer {
+    background-color: rgba(194, 194, 194, 1);
+    display: flex;
+    justify-content: center;
+    align-items: stretch baseline;
+}
+
+.foot-title {
+    font-size: 1.5rem;
+    font-family: 'Quattrocento', serif;
+    padding: 2rem;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(219, 225, 222, 1);
+    /* background-color: white; */
+    height: 16rem;
+    margin: 2rem;
+    display: inline-block;
+    width: 16rem;
+    vertical-align: top;
+    border-top: 4px solid rgba(231, 101, 40, 1);
+}
+
+.desc {
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.icon {
+    width: 4rem;
+}
+
+.box_title {
+    padding: 0 0.5rem;
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+    color: rgba(231, 101, 40, 1);
+}
+
+.spec {
+    padding: 4rem .6rem;
+}
+
+.resume {
+    background: linear-gradient(rgba(255,255,255, 0.6),rgba(255,255,255, 0.6)), no-repeat center/cover url("background.jpg");
+}
+
+.molly {
+    font-size: 4rem;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin: 0;
+    border-bottom: 3px solid rgba(0, 193, 199, 1);
+}
+
+
+.one {
+    border-bottom: 3px solid rgba(0, 193, 199, 1);
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+.skills {
+    display: inline-block;
+    margin: 0 3rem;
+    vertical-align: top;
+    text-align: left;   
+}
+
+.exp {
+    display: inline-block;
+    text-align: left;
+    width: 460px;
+    padding: 0 0 4rem 0;
+}
+
+.a {
+    margin: 0 0 1rem 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+@media screen and (min-width: 991px) {
+    
+    .float {
+        display: block;
+        float: left;
+        margin: 2rem;
+    }
+    
+    .face {
+        max-width: 500px;
+        margin: 10% 5%;
+    }
+
+    .right {
+        max-width: 39%;
+        margin: 5% 0;
+        padding: 4% 2%;
+        float: right;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+
+    .about {
+        text-align: right;
+    }
+    
+    .one { 
+        text-align: left;
+        border-bottom: none;
+        float: left;
+        width: 25%;
+    }
+
+    .two {
+        text-align: left;
+    }
+
+    .skills {
+        display: block;
+        width: 75%;
+        margin: 0 25%;
+        padding: 0 1rem 0 0;
+    }
+
+    .exp {
+        display: block;
+        width: 65%;
+        float: left;
+        border-left: 3px solid rgba(0, 193, 199, 1);
+        padding: 0 0 4rem 3rem;
+    }
+
+}
